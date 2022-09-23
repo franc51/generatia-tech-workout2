@@ -10,12 +10,16 @@
 
 </head>
      <body>
+              
+              <?php 
+                  $logo = "FS";
+              ?>
 
         <!-- Navigation -->
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">FS</a>
+              <a class="navbar-brand" href="index.php"><?php echo $logo ?></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -49,7 +53,7 @@
 
           <!-- Footer -->
 <div class="footer fixed-bottom">
-<p>Copyright FS. All rights reserved.</p>
+<p>Copyright <?php echo $logo ?>. All rights reserved.</p>
 </div>
 
 

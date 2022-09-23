@@ -10,12 +10,11 @@
 
 </head>
      <body>
-
         <!-- Navigation -->
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">FS</a>
+            <a class="navbar-brand" href="index.php">FS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,6 +46,7 @@
   <div class="row">
 
   <?php 
+     $dots = "...";
      $movie_id = 1;
      $movies = array(
               ['movie_name' => 'Jeepers Creepers',
@@ -73,7 +73,7 @@
 <img src="<?php echo $movie['movie_picture']?>" alt="...">
   <div class="card-body" id="<?php $movie_id; ?>">
     <h5 class="card-title"><?php echo $movie['movie_name']?></h5>
-    <p class="card-text"><?php echo $movie['movie_description']?></p>
+    <p class="card-text"><?php echo $movie['movie_description']; echo $dots; ?></p>
     <a href="movie-1.php" class="btn btn-primary">Check it out</a>
   </div>
 </div>
