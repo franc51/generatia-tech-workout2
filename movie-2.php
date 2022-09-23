@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="movies.html">Movies</a>
+                  <a class="nav-link" href="movies.php">Movies</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="contact.php">Contact</a>
                 </li>
               </ul>
               <form class="d-flex">
@@ -40,39 +40,33 @@
         </nav>
           <!-- Continut -->
 
-<div class="container">
-  <h1>Movies</h1>
+          <div class="container">
 
-  <div class="row">
-    <div class="card" style="width: 18rem;">
-      <img src="https://resizing.flixster.com/z32jVWR8Ia14OBG_XDI66gJcLbo=/206x305/v2/https://flxt.tmsimg.com/assets/p20787046_p_v8_aa.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Jeepers Creepers</h5>
-        <p class="card-text">For the first time in 23 years...The Creeper is back.</p>
-        <a href="movie-1.html" class="btn btn-primary">Check it out</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="https://resizing.flixster.com/Rp_yXOuUE_7DGIb2bXoGj04cAE8=/206x305/v2/https://resizing.flixster.com/WVfGu7nKO71XFDMqoT0BcJA5Xmc=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzhiYzNlZDgxLThiYTMtNGE5Ny1hMGJiLTBkNjFkYjAzM2I3MC5qcGc=" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">The infernal machine</h5>
-        <p class="card-text">Bruce searches for the person behind the cryptic messages</p>
-        <a href="movie-2.html" class="btn btn-primary">Check it out</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="https://resizing.flixster.com/JVPqheUytMnxMWOSBAKAG7qIubM=/206x305/v2/https://resizing.flixster.com/fy6wQKjgWAks3UbdN3i3i-jvKc4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzQzZDgyZTExLTU1MjktNDE3Yi1iNzlkLTA3ZTA5NWU1ZGMwNy5wbmc=" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Pearl</h5>
-        <p class="card-text">Pearl must tend to her ailing father under the bitter</p>
-        <a href="movie-3.html" class="btn btn-primary">Check it out</a>
-      </div>
-    </div>
-  </div>
-  
-</div>
+            <div class="row">
+            
+              <div class="col-sm-2">
+                <h1>The Infernal Machine</h1>
+             <img src="https://resizing.flixster.com/Rp_yXOuUE_7DGIb2bXoGj04cAE8=/206x305/v2/https://resizing.flixster.com/WVfGu7nKO71XFDMqoT0BcJA5Xmc=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzhiYzNlZDgxLThiYTMtNGE5Ny1hMGJiLTBkNjFkYjAzM2I3MC5qcGc=">
+              </div>
+            
+              <div class="col-sm-8">
+            
+            <h4>2003</h4>
+            <p>Bruce Cogburn, a reclusive and controversial author of the famed book "The Infernal Machine," is drawn out of hiding when he begins to receive endless letters from an obsessive fan. What ensues is a dangerous labyrinth as Bruce searches for the person behind the cryptic messages, forcing him to confront his past and ultimately reveal the truth behind the book. </p>
+              <p>Directed by: <strong>Andrew Hunt</strong></p>
+              <p> Runtime: <strong>1h 52m </strong></p>
+              <p>Cast:</p>
+              <ul>
+                <li>Guy Pearce </li>
+                <li>Alice Eve </li>
+                <li>Jeremy Davies </li>
+                <li>Alex Pettyfer </li>
+              </ul>
+            
+            </div>
+            
+            </div>
+            </div>
 
           <!-- Footer -->
 <div class="footer fixed-bottom">

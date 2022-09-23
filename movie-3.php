@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="movies.html">Movies</a>
+                  <a class="nav-link" href="movies.php">Movies</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="contact.php">Contact</a>
                 </li>
               </ul>
               <form class="d-flex">
@@ -38,15 +38,35 @@
             </div>
           </div>
         </nav>
-
           <!-- Continut -->
 
-<div class="container">
-  <h1>Contact</h1>
-  <h4>Francisc Szasz</h4>
-  <p>francisc.szasz@digitalexplorer.ro</p>
-  <p>+40720628821</p>
-</div>
+          <div class="container">
+
+            <div class="row">
+            
+              <div class="col-sm-2">
+                <h1>Pearl</h1>
+             <img src="https://resizing.flixster.com/JVPqheUytMnxMWOSBAKAG7qIubM=/206x305/v2/https://resizing.flixster.com/fy6wQKjgWAks3UbdN3i3i-jvKc4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzQzZDgyZTExLTU1MjktNDE3Yi1iNzlkLTA3ZTA5NWU1ZGMwNy5wbmc=">
+              </div>
+            
+              <div class="col-sm-8">
+            
+            <h4>2001</h4>
+            <p>Chase and Laine head to the Horror Hound festival where Laine begins to experience unexplained premonitions and disturbing visions associated with the town's past, and in particular, local legend The Creeper. As the festival gets underway and the blood-soaked entertainment builds to a frenzy, Laine believes that something unearthly has been summoned and that for the first time in 23 years...The Creeper is back. </p>
+              <p>Directed by: <strong>Timo Vuorensola</strong></p>
+              <p> Runtime: <strong>1h 28m</strong></p>
+              <p>Cast:</p>
+              <ul>
+                <li>Sydney Craven</li>
+                <li>Imran Adams</li>
+                <li>Peter Brooke</li>
+                <li>Ocean Navarro</li>
+              </ul>
+            
+            </div>
+            
+            </div>
+            </div>
 
           <!-- Footer -->
 <div class="footer fixed-bottom">

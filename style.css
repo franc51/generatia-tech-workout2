@@ -12,7 +12,10 @@ html {
     text-align: center;
     color: white;
     background-color: #212529;
-    align-items: center;
+}
+.footer p {
+    justify-content: center;
+    margin: 8px;
 }
 
 .container {
@@ -20,12 +23,31 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 h1 {
     text-align: center;
 }
 
-.col-8 {
+.col-sm-8 {
     padding-top: 8vh;
+}
+.col-sm-2{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    margin: 5vh;
 }

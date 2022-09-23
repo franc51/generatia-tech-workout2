@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="movies.html">Movies</a>
+                  <a class="nav-link" href="movies.php">Movies</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="contact.php">Contact</a>
                 </li>
               </ul>
               <form class="d-flex">
@@ -45,12 +45,12 @@
 
 <div class="row">
 
-  <div class="col-2">
+  <div class="col-sm-2">
     <h1>Jeepers Creepers</h1>
  <img src="https://resizing.flixster.com/z32jVWR8Ia14OBG_XDI66gJcLbo=/206x305/v2/https://flxt.tmsimg.com/assets/p20787046_p_v8_aa.jpg">
   </div>
 
-  <div class="col-8">
+  <div class="col-sm-8">
 
 <h4>2001</h4>
 <p>Chase and Laine head to the Horror Hound festival where Laine begins to experience unexplained premonitions and disturbing visions associated with the town's past, and in particular, local legend The Creeper. As the festival gets underway and the blood-soaked entertainment builds to a frenzy, Laine believes that something unearthly has been summoned and that for the first time in 23 years...The Creeper is back. </p>
